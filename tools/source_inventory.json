@@ -1,0 +1,261 @@
+{
+  "retrieved": "2026-10-23",
+  "transport": "Original inputs retained; Wiktionary mirror retrieved through connected GitHub blob reads and checked against Git blob hashes.",
+  "files": [
+    {
+      "file": "es_ES.dic",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/es_ES.dic",
+      "gitBlob": "4a1b9b29175abc663949c16aacd5650475cc4f85",
+      "upstreamPath": "es/es_ES.dic"
+    },
+    {
+      "file": "es_ES.aff",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/es_ES.aff",
+      "gitBlob": "8ece2647bffe4e36f5deaf38f1a40e7452e9edf6",
+      "upstreamPath": "es/es_ES.aff"
+    },
+    {
+      "file": "es_MX.dic",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/es_MX.dic",
+      "gitBlob": "60fbc98976417a58bae2a74b1fb95d747f963614",
+      "upstreamPath": "es/es_MX.dic"
+    },
+    {
+      "file": "es_MX.aff",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/es_MX.aff",
+      "gitBlob": "e8fc101aabecedfa1423da4d51a2f620eee46762",
+      "upstreamPath": "es/es_MX.aff"
+    },
+    {
+      "file": "README_hunspell_es.txt",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/README_hunspell_es.txt",
+      "gitBlob": "80f264842ea15210c764ba228f0f1302062516d0",
+      "upstreamPath": "es/README_hunspell_es.txt"
+    },
+    {
+      "file": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/LICENSE.md",
+      "gitBlob": "2e4370a6cf5f873b39a70947d3166174db75f2a6",
+      "upstreamPath": "es/LICENSE.md"
+    },
+    {
+      "file": "MPL-1.1.txt",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/MPL-1.1.txt",
+      "gitBlob": "7714141d154290f53e9e60c615a8edc9b51a8df7",
+      "upstreamPath": "es/MPL-1.1.txt"
+    },
+    {
+      "file": "LGPLv3.txt",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/LGPLv3.txt",
+      "gitBlob": "fc8a5de7edf437cdc98a216370faf7c757279bcb",
+      "upstreamPath": "es/LGPLv3.txt"
+    },
+    {
+      "file": "GPLv3.txt",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/GPLv3.txt",
+      "gitBlob": "94a9ed024d3859793618152ea559a168bbcbb5e2",
+      "upstreamPath": "es/GPLv3.txt"
+    },
+    {
+      "file": "pt_BR.dic",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/pt_BR/pt_BR.dic",
+      "gitBlob": "849c1dcaf873e72e364f7a64b6f1f2a679bbb097",
+      "upstreamPath": "pt_BR/pt_BR.dic"
+    },
+    {
+      "file": "pt_BR.aff",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/pt_BR/pt_BR.aff",
+      "gitBlob": "4664ad6fc893e5683c1140eab8c1e1faeca802d3",
+      "upstreamPath": "pt_BR/pt_BR.aff"
+    },
+    {
+      "file": "README_en.txt",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/pt_BR/README_en.txt",
+      "gitBlob": "bfc16998d97662b7cd52ac2042e402acaf6980be",
+      "upstreamPath": "pt_BR/README_en.txt"
+    },
+    {
+      "file": "README_pt_BR.txt",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/pt_BR/README_pt_BR.txt",
+      "gitBlob": "b3b5b26cdac108a1a785ab41ed98bd1add71f0bc",
+      "upstreamPath": "pt_BR/README_pt_BR.txt"
+    },
+    {
+      "file": "id_ID.dic",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/id/id_ID.dic",
+      "gitBlob": "b7dbe8e70d11262536d56d710a9072b6e186084a",
+      "upstreamPath": "id/id_ID.dic"
+    },
+    {
+      "file": "id_ID.aff",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/id/id_ID.aff",
+      "gitBlob": "6b1b68cdc83246434c2c87358dbd56470c26b17a",
+      "upstreamPath": "id/id_ID.aff"
+    },
+    {
+      "file": "README-dict.adoc",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/id/README-dict.adoc",
+      "gitBlob": "e619633d9f439495cd39488282e45a2c2880e210",
+      "upstreamPath": "id/README-dict.adoc"
+    },
+    {
+      "file": "fr.dic",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/fr_FR/dictionaries/fr.dic",
+      "gitBlob": "fdb058b940dbb690ac17c0c8e231497d678d216e",
+      "upstreamPath": "fr_FR/dictionaries/fr.dic"
+    },
+    {
+      "file": "fr.aff",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/fr_FR/dictionaries/fr.aff",
+      "gitBlob": "bc5cee894fa19d37c10b65192128677fbbc68ccb",
+      "upstreamPath": "fr_FR/dictionaries/fr.aff"
+    },
+    {
+      "file": "README_dict_fr.txt",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/fr_FR/dictionaries/README_dict_fr.txt",
+      "gitBlob": "fc74384d35cecef4b7f32f9131ec56aa3723d203",
+      "upstreamPath": "fr_FR/dictionaries/README_dict_fr.txt"
+    },
+    {
+      "file": "tr-index.dic",
+      "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/tr/index.dic",
+      "gitBlob": "8462432906aded651c05dedc13c3b5f127035837"
+    },
+    {
+      "file": "tr-index.aff",
+      "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/tr/index.aff",
+      "gitBlob": "c663303c9a9c0549c4ec825a1840249c5ab67601"
+    },
+    {
+      "file": "tr-license",
+      "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/tr/license",
+      "gitBlob": "31821280dc22483b1df9974d941472501a564f30"
+    },
+    {
+      "file": "tr-readme.md",
+      "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/tr/readme.md",
+      "gitBlob": "0ebe5aa1d8d10072e082d37c9bb307f9dfcc91e7"
+    },
+    {
+      "file": "FrequencyWords-README.md",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/README.md",
+      "gitBlob": "699216f2874089f5ac0bf487c5c8ab9cf5a613d6"
+    },
+    {
+      "file": "es_50k.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/es/es_50k.txt",
+      "gitBlob": "bc78eb9f7dab5c1c83a43b80914447747b91b97a"
+    },
+    {
+      "file": "pt_br_50k.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/pt_br/pt_br_50k.txt",
+      "gitBlob": "2aa0e7b7d924143a2694a194bf9b9bbe8afe3da2"
+    },
+    {
+      "file": "id_50k.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/id/id_50k.txt",
+      "gitBlob": "eb844ccaee6ff0a39d57d2776fc9a2782afed488"
+    },
+    {
+      "file": "tr_50k.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/tr/tr_50k.txt",
+      "gitBlob": "b246f05e961667af0cdad9fa78caf605d1ea5f20"
+    },
+    {
+      "file": "fr_50k.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/fr/fr_50k.txt",
+      "gitBlob": "884ac1763d0791b2d79ec9f07edc68751e012319"
+    },
+    {
+      "file": "de_50k.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/de/de_50k.txt",
+      "gitBlob": "f4addcc9aafb4ddf710cc20694f2cfd90283a775"
+    },
+    {
+      "file": "it_50k.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/it/it_50k.txt",
+      "gitBlob": "e73d1900784da088d74697350c9cb21210f4dcdd"
+    },
+    {
+      "file": "pl_50k.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/pl/pl_50k.txt",
+      "gitBlob": "b391cbc1f8d0de17b7e0f32878b573ffb9afbcf1"
+    },
+    {
+      "file": "MPL-2.0.txt",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MPL-2.0.txt",
+      "gitBlob": "ee6256cdb62a765749a71aae3abea32884301cd1"
+    },
+    {
+      "file": "CC-BY-SA-4.0.txt",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CC-BY-SA-4.0.txt",
+      "gitBlob": "835a6836b385fa068fdd625685548845cda60c2f"
+    },
+    {
+      "file": "CC-BY-4.0.txt",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CC-BY-4.0.txt",
+      "gitBlob": "13ca539f377dc705af32b8d2ce89262298ea2f06"
+    },
+    {
+      "file": "LICENSE-dict",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/id/LICENSE-dict",
+      "gitBlob": "341c30bda4457610db4829294e5d7e526d4c835b"
+    },
+    {
+      "file": "README_pl_PL.txt",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/pl_PL/README_pl_PL.txt",
+      "gitBlob": "13932d87b5322fd97cee104b947a9ed71cb4c7f1",
+      "upstreamPath": "pl_PL/README_pl_PL.txt"
+    },
+    {
+      "file": "pl_PL.aff",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/pl_PL/pl_PL.aff",
+      "gitBlob": "a57905a9ca3473313613322c05ed63ea75f11839",
+      "upstreamPath": "pl_PL/pl_PL.aff",
+      "encoding": "iso8859-2"
+    },
+    {
+      "file": "pl_PL.dic",
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/pl_PL/pl_PL.dic",
+      "gitBlob": "0a6df9f690a40c87269eb2b1863f06741129d15a",
+      "upstreamPath": "pl_PL/pl_PL.dic",
+      "encoding": "iso8859-2"
+    },
+    {
+      "file": "de-wiktionary.tsv",
+      "url": "https://raw.githubusercontent.com/Vuizur/Wiktionary-Dictionaries/be0cfb8d614470bc8b9d9006ddff8b921cd5c2e3/German-English%20Wiktionary%20dictionary.tsv",
+      "gitBlob": "5bf0ffa0b4396e3b18ee39ca3d5a08ddce83d068",
+      "licence": "CC-BY-SA-3.0 OR GFDL",
+      "sourceEdition": "enwiktionary",
+      "dumpDate": null,
+      "dumpDateStatus": "Not disclosed by mirror; do not infer from commit date",
+      "snapshotDate": "2022-11-09",
+      "retrieved": "2026-10-23",
+      "transport": "Connected GitHub fetch_blob; exact original bytes verified"
+    },
+    {
+      "file": "it-wiktionary.tsv",
+      "url": "https://raw.githubusercontent.com/Vuizur/Wiktionary-Dictionaries/be0cfb8d614470bc8b9d9006ddff8b921cd5c2e3/Italian-English%20Wiktionary%20dictionary.tsv",
+      "gitBlob": "34eab0d1b13cddd103bdcb05c909cf37307ed857",
+      "licence": "CC-BY-SA-3.0 OR GFDL",
+      "sourceEdition": "enwiktionary",
+      "dumpDate": null,
+      "dumpDateStatus": "Not disclosed by mirror; do not infer from commit date",
+      "snapshotDate": "2022-11-09",
+      "retrieved": "2026-10-23",
+      "transport": "Connected GitHub fetch_blob; exact original bytes verified"
+    },
+    {
+      "file": "wiktionary-mirror-README.md",
+      "url": "https://raw.githubusercontent.com/Vuizur/Wiktionary-Dictionaries/be0cfb8d614470bc8b9d9006ddff8b921cd5c2e3/README.md",
+      "gitBlob": "615f167c70bfda9f6e5b92e4b5527cb94995d752",
+      "licence": "CC-BY-SA-3.0 OR GFDL",
+      "sourceEdition": "enwiktionary",
+      "dumpDate": null,
+      "dumpDateStatus": "Not disclosed by mirror; do not infer from commit date",
+      "snapshotDate": "2023-05-19",
+      "retrieved": "2026-10-23",
+      "transport": "Connected GitHub fetch_blob; exact original bytes verified"
+    }
+  ]
+}

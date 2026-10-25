@@ -1,0 +1,121 @@
+{
+  "accept": 45056,
+  "acceptLengths": {
+    "10": 3280,
+    "11": 1876,
+    "12": 1137,
+    "2": 109,
+    "3": 698,
+    "4": 2784,
+    "5": 7913,
+    "6": 7939,
+    "7": 8048,
+    "8": 6529,
+    "9": 4743
+  },
+  "alphabet": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z"
+  ],
+  "alphabetPolicy": "NFC lowercase; one precomposed character per tile; preserve all accents; digraphs use multiple tiles",
+  "answers": 2500,
+  "answersLengths": {
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "2": 0,
+    "3": 183,
+    "4": 478,
+    "5": 806,
+    "6": 552,
+    "7": 330,
+    "8": 151,
+    "9": 0
+  },
+  "blockedRecords": 419,
+  "candidateAnswers": 7423,
+  "derivedAttested": 6146,
+  "filtering": {
+    "case_shape_length": 6833,
+    "needs_complex_affix": 119,
+    "unsafe_stems": 446
+  },
+  "inputs": [
+    "GPLv3.txt",
+    "LGPLv3.txt",
+    "LICENSE-dict",
+    "README-dict.adoc",
+    "id_50k.txt",
+    "id_ID.aff",
+    "id_ID.dic"
+  ],
+  "ladder": {
+    "3": {
+      "components": 13,
+      "isolated": 10,
+      "largest": 152,
+      "words": 183
+    },
+    "4": {
+      "components": 107,
+      "isolated": 79,
+      "largest": 267,
+      "words": 478
+    },
+    "5": {
+      "components": 421,
+      "isolated": 338,
+      "largest": 236,
+      "words": 806
+    },
+    "6": {
+      "components": 419,
+      "isolated": 369,
+      "largest": 51,
+      "words": 552
+    },
+    "7": {
+      "components": 298,
+      "isolated": 283,
+      "largest": 12,
+      "words": 330
+    },
+    "8": {
+      "components": 144,
+      "isolated": 141,
+      "largest": 6,
+      "words": 151
+    }
+  },
+  "language": "id",
+  "lowestAnswerFrequency": 376,
+  "sampleMethod": "100 lowest SHA-256(seed:language:word) priorities; stable random sample",
+  "sampleReview": "AgentReviewed",
+  "sampleSeed": 20261023,
+  "sampleSize": 100,
+  "sourceBases": 39022
+}

@@ -1,0 +1,128 @@
+{
+  "accept": 80000,
+  "acceptLengths": {
+    "10": 10971,
+    "11": 9026,
+    "12": 7506,
+    "2": 175,
+    "3": 838,
+    "4": 2566,
+    "5": 5426,
+    "6": 8255,
+    "7": 10891,
+    "8": 12218,
+    "9": 12128
+  },
+  "alphabet": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "ą",
+    "ć",
+    "ę",
+    "ł",
+    "ń",
+    "ó",
+    "ś",
+    "ź",
+    "ż"
+  ],
+  "alphabetPolicy": "NFC lowercase; one precomposed character per tile; preserve all accents; digraphs use multiple tiles",
+  "answers": 2500,
+  "answersLengths": {
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "2": 0,
+    "3": 200,
+    "4": 376,
+    "5": 552,
+    "6": 583,
+    "7": 446,
+    "8": 343,
+    "9": 0
+  },
+  "blockedRecords": 1757,
+  "candidateAnswers": 9507,
+  "derivedAttested": 31639,
+  "filtering": {
+    "case_shape_length": 146666,
+    "unsafe_stems": 1837,
+    "upstream_header_count_delta": 9
+  },
+  "inputs": [
+    "CC-BY-4.0.txt",
+    "README_pl_PL.txt",
+    "pl_50k.txt",
+    "pl_PL.aff",
+    "pl_PL.dic"
+  ],
+  "ladder": {
+    "3": {
+      "components": 35,
+      "isolated": 22,
+      "largest": 117,
+      "words": 200
+    },
+    "4": {
+      "components": 183,
+      "isolated": 127,
+      "largest": 105,
+      "words": 376
+    },
+    "5": {
+      "components": 405,
+      "isolated": 328,
+      "largest": 13,
+      "words": 552
+    },
+    "6": {
+      "components": 484,
+      "isolated": 412,
+      "largest": 5,
+      "words": 583
+    },
+    "7": {
+      "components": 388,
+      "isolated": 349,
+      "largest": 5,
+      "words": 446
+    },
+    "8": {
+      "components": 311,
+      "isolated": 282,
+      "largest": 3,
+      "words": 343
+    }
+  },
+  "language": "pl",
+  "lowestAnswerFrequency": 2501,
+  "sampleMethod": "100 lowest SHA-256(seed:language:word) priorities; stable random sample",
+  "sampleReview": "AgentReviewed",
+  "sampleSeed": 20261023,
+  "sampleSize": 100,
+  "sourceBases": 200398
+}

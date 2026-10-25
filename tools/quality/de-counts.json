@@ -1,0 +1,122 @@
+{
+  "accept": 47915,
+  "acceptLengths": {
+    "10": 8128,
+    "11": 7039,
+    "12": 5392,
+    "2": 32,
+    "3": 239,
+    "4": 1009,
+    "5": 2257,
+    "6": 3916,
+    "7": 5164,
+    "8": 6849,
+    "9": 7890
+  },
+  "alphabet": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "ä",
+    "ö",
+    "ü",
+    "ß"
+  ],
+  "alphabetPolicy": "NFC lowercase; one precomposed character per tile; preserve all accents; digraphs use multiple tiles",
+  "answers": 2500,
+  "answersLengths": {
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "2": 0,
+    "3": 66,
+    "4": 298,
+    "5": 451,
+    "6": 530,
+    "7": 581,
+    "8": 574,
+    "9": 0
+  },
+  "blockedRecords": 203199,
+  "candidateAnswers": 6358,
+  "derivedAttested": 13535,
+  "filtering": {
+    "wiktionary_rejected_groups": 16178
+  },
+  "inflectedAccept": 10555,
+  "inputs": [
+    "CC-BY-SA-4.0.txt",
+    "de-wiktionary.tsv",
+    "de_50k.txt",
+    "wiktionary-mirror-README.md"
+  ],
+  "ladder": {
+    "3": {
+      "components": 42,
+      "isolated": 30,
+      "largest": 6,
+      "words": 66
+    },
+    "4": {
+      "components": 160,
+      "isolated": 113,
+      "largest": 18,
+      "words": 298
+    },
+    "5": {
+      "components": 347,
+      "isolated": 291,
+      "largest": 19,
+      "words": 451
+    },
+    "6": {
+      "components": 453,
+      "isolated": 404,
+      "largest": 16,
+      "words": 530
+    },
+    "7": {
+      "components": 538,
+      "isolated": 505,
+      "largest": 6,
+      "words": 581
+    },
+    "8": {
+      "components": 529,
+      "isolated": 495,
+      "largest": 6,
+      "words": 574
+    }
+  },
+  "language": "de",
+  "lowestAnswerFrequency": 527,
+  "nounAnswers": 1533,
+  "sampleMethod": "100 lowest SHA-256(seed:language:word) priorities; stable random sample",
+  "sampleReview": "AgentReviewed",
+  "sampleSeed": 20261023,
+  "sampleSize": 100,
+  "sourceBases": 37360
+}

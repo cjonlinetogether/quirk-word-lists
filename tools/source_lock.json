@@ -1,0 +1,317 @@
+{
+  "CC-BY-4.0.txt": {
+    "bytes": 17023,
+    "gitBlob": "13ca539f377dc705af32b8d2ce89262298ea2f06",
+    "retrieved": "2026-10-23",
+    "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CC-BY-4.0.txt"
+  },
+  "CC-BY-SA-4.0.txt": {
+    "bytes": 18375,
+    "gitBlob": "835a6836b385fa068fdd625685548845cda60c2f",
+    "retrieved": "2026-10-23",
+    "sha256": "cde7883b9050a1104f4ac19a1572aafd6e5d7323b68351aaf51fbf4beba54966",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CC-BY-SA-4.0.txt"
+  },
+  "FrequencyWords-README.md": {
+    "bytes": 913,
+    "gitBlob": "699216f2874089f5ac0bf487c5c8ab9cf5a613d6",
+    "retrieved": "2026-10-23",
+    "sha256": "a92fcc50e27f7b2d5860ec1c1ce794dc4c892d945bfa4c8c3136cdfd213ee710",
+    "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/README.md"
+  },
+  "GPLv3.txt": {
+    "bytes": 35147,
+    "gitBlob": "94a9ed024d3859793618152ea559a168bbcbb5e2",
+    "retrieved": "2026-10-23",
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/GPLv3.txt"
+  },
+  "LGPLv3.txt": {
+    "bytes": 7639,
+    "gitBlob": "fc8a5de7edf437cdc98a216370faf7c757279bcb",
+    "retrieved": "2026-10-23",
+    "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/LGPLv3.txt"
+  },
+  "LICENSE-dict": {
+    "bytes": 7652,
+    "gitBlob": "341c30bda4457610db4829294e5d7e526d4c835b",
+    "retrieved": "2026-10-23",
+    "sha256": "97628afebc60f026f5c2b25d7491c46a5c4ee61f693e7cfa07fbd2c03605979b",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/id/LICENSE-dict"
+  },
+  "LICENSE.md": {
+    "bytes": 991,
+    "gitBlob": "2e4370a6cf5f873b39a70947d3166174db75f2a6",
+    "retrieved": "2026-10-23",
+    "sha256": "2b70fd5cb8d3b34cc6ae322c969557a2270b99017594addb2531ef5ffd9e1b17",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/LICENSE.md"
+  },
+  "MPL-1.1.txt": {
+    "bytes": 25755,
+    "gitBlob": "7714141d154290f53e9e60c615a8edc9b51a8df7",
+    "retrieved": "2026-10-23",
+    "sha256": "53692a2ed6c6a2c6ec9b32dd0b820dfae91e0a1fcdf625ca9ed0bdf8705fcc4f",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/MPL-1.1.txt"
+  },
+  "MPL-2.0.txt": {
+    "bytes": 16727,
+    "gitBlob": "ee6256cdb62a765749a71aae3abea32884301cd1",
+    "retrieved": "2026-10-23",
+    "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MPL-2.0.txt"
+  },
+  "README-dict.adoc": {
+    "bytes": 4065,
+    "gitBlob": "e619633d9f439495cd39488282e45a2c2880e210",
+    "retrieved": "2026-10-23",
+    "sha256": "7c18fabf4169a4b7f0f7effac5309c26294d8cb354d9ed5cbc8ea2868abcf942",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/id/README-dict.adoc"
+  },
+  "README_dict_fr.txt": {
+    "bytes": 2758,
+    "gitBlob": "fc74384d35cecef4b7f32f9131ec56aa3723d203",
+    "retrieved": "2026-10-23",
+    "sha256": "4a25abf740ad6ba5e8d0cfc0d2ffadc3c13c303f8fe389f323b061a389350f83",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/fr_FR/dictionaries/README_dict_fr.txt"
+  },
+  "README_en.txt": {
+    "bytes": 1461,
+    "gitBlob": "bfc16998d97662b7cd52ac2042e402acaf6980be",
+    "retrieved": "2026-10-23",
+    "sha256": "bb064f3db7ba5f5536da7d079773f692c5f928822e8aebc3d78259ff6cceb9e5",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/pt_BR/README_en.txt"
+  },
+  "README_hunspell_es.txt": {
+    "bytes": 2615,
+    "gitBlob": "80f264842ea15210c764ba228f0f1302062516d0",
+    "retrieved": "2026-10-23",
+    "sha256": "0b5c39a863ecb61f5c5631ec1cd977667ef9bda6da6f90e80e9fc0edcbfadd97",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/README_hunspell_es.txt"
+  },
+  "README_pl_PL.txt": {
+    "bytes": 593,
+    "gitBlob": "13932d87b5322fd97cee104b947a9ed71cb4c7f1",
+    "retrieved": "2026-10-23",
+    "sha256": "e691ed1e79934293b0cd6996a14af1520ff893c02f920c09ed0c90aa5f0a8abc",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/pl_PL/README_pl_PL.txt"
+  },
+  "README_pt_BR.txt": {
+    "bytes": 16348,
+    "gitBlob": "b3b5b26cdac108a1a785ab41ed98bd1add71f0bc",
+    "retrieved": "2026-10-23",
+    "sha256": "9974ce691fdc1fe731717d7a2dc668244405fdc2bf9bf3367eb9b29e85177c88",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/pt_BR/README_pt_BR.txt"
+  },
+  "de_50k.txt": {
+    "bytes": 662497,
+    "gitBlob": "f4addcc9aafb4ddf710cc20694f2cfd90283a775",
+    "retrieved": "2026-10-23",
+    "sha256": "d9e50546fd7e8b6fe6542a2b33c51d1331092b2a3916ec09f80d97856068705b",
+    "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/de/de_50k.txt"
+  },
+  "es_50k.txt": {
+    "bytes": 658626,
+    "gitBlob": "bc78eb9f7dab5c1c83a43b80914447747b91b97a",
+    "retrieved": "2026-10-23",
+    "sha256": "dcff3ad4316192f4dc4ff7d26e637c6ff314ef1ca0f3f720c5649018a71056c0",
+    "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/es/es_50k.txt"
+  },
+  "es_ES.aff": {
+    "bytes": 169202,
+    "gitBlob": "8ece2647bffe4e36f5deaf38f1a40e7452e9edf6",
+    "retrieved": "2026-10-23",
+    "sha256": "e73a9bf8e1383f4986a5dc9e2fbed49371c0c61f511c626d15586bd433c1cad9",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/es_ES.aff"
+  },
+  "es_ES.dic": {
+    "bytes": 715989,
+    "gitBlob": "4a1b9b29175abc663949c16aacd5650475cc4f85",
+    "retrieved": "2026-10-23",
+    "sha256": "6975dddec3d5d2c676069537bc67b4b5f786c65c5d4cf6703a82acf779ac9ec1",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/es_ES.dic"
+  },
+  "es_MX.aff": {
+    "bytes": 160081,
+    "gitBlob": "e8fc101aabecedfa1423da4d51a2f620eee46762",
+    "retrieved": "2026-10-23",
+    "sha256": "d966cb748e4a688ed75ec84b50c0835ac438e5325ee4fce703a093794f9cba7e",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/es_MX.aff"
+  },
+  "es_MX.dic": {
+    "bytes": 723507,
+    "gitBlob": "60fbc98976417a58bae2a74b1fb95d747f963614",
+    "retrieved": "2026-10-23",
+    "sha256": "44ce35af220962c68f97962776639bef271f7d90a85ba924b539a36e33315f82",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/es/es_MX.dic"
+  },
+  "fr.aff": {
+    "bytes": 199870,
+    "gitBlob": "bc5cee894fa19d37c10b65192128677fbbc68ccb",
+    "retrieved": "2026-10-23",
+    "sha256": "c176610cd5dc4846806a65ddd029f422d87978bf58f224aa44222662a16a2de5",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/fr_FR/dictionaries/fr.aff"
+  },
+  "fr.dic": {
+    "bytes": 1236490,
+    "gitBlob": "fdb058b940dbb690ac17c0c8e231497d678d216e",
+    "retrieved": "2026-10-23",
+    "sha256": "b78a868e31dd6e373b6c3217969afb898a9acde828a5e7ef97308da42218c88c",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/fr_FR/dictionaries/fr.dic"
+  },
+  "fr_50k.txt": {
+    "bytes": 653452,
+    "gitBlob": "884ac1763d0791b2d79ec9f07edc68751e012319",
+    "retrieved": "2026-10-23",
+    "sha256": "f81f7c570b6433764da99aa30f4dfb08d81c5926301377b709af23a13b1f9596",
+    "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/fr/fr_50k.txt"
+  },
+  "id_50k.txt": {
+    "bytes": 588873,
+    "gitBlob": "eb844ccaee6ff0a39d57d2776fc9a2782afed488",
+    "retrieved": "2026-10-23",
+    "sha256": "f2eea0da9735b7040efbfa813f5f875ec931de5a0ec70a6f28213ea60a87bb38",
+    "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/id/id_50k.txt"
+  },
+  "id_ID.aff": {
+    "bytes": 15274,
+    "gitBlob": "6b1b68cdc83246434c2c87358dbd56470c26b17a",
+    "retrieved": "2026-10-23",
+    "sha256": "c625d5b237a489c452cf1f9c666600103e8093667dff89e7030a24217995dc79",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/id/id_ID.aff"
+  },
+  "id_ID.dic": {
+    "bytes": 453700,
+    "gitBlob": "b7dbe8e70d11262536d56d710a9072b6e186084a",
+    "retrieved": "2026-10-23",
+    "sha256": "775ff17a52801f3d2ee80120952fb44cc9bac6c3cf61740de775e439851a5803",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/id/id_ID.dic"
+  },
+  "it_50k.txt": {
+    "bytes": 653205,
+    "gitBlob": "e73d1900784da088d74697350c9cb21210f4dcdd",
+    "retrieved": "2026-10-23",
+    "sha256": "bb96cdcb56d28342c1e909db6b2525448b7767136b7e86a2ccc649a1be66fc19",
+    "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/it/it_50k.txt"
+  },
+  "pl_50k.txt": {
+    "bytes": 676499,
+    "gitBlob": "b391cbc1f8d0de17b7e0f32878b573ffb9afbcf1",
+    "retrieved": "2026-10-23",
+    "sha256": "50bf8d30d1ed4f5cedceb3e40e74d793ec6bec0f16d9f3dd0a2c9e313402e10f",
+    "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/pl/pl_50k.txt"
+  },
+  "pl_PL.aff": {
+    "bytes": 257542,
+    "gitBlob": "a57905a9ca3473313613322c05ed63ea75f11839",
+    "retrieved": "2026-10-23",
+    "sha256": "82973651651aa930335c865b339b98db376ca3dbf3a661b70b9eeb71fdf41dca",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/pl_PL/pl_PL.aff"
+  },
+  "pl_PL.dic": {
+    "bytes": 5252096,
+    "gitBlob": "0a6df9f690a40c87269eb2b1863f06741129d15a",
+    "retrieved": "2026-10-23",
+    "sha256": "c0848440599eb88e5aca500418d5f389e562ec2c157b63dbe39d354658ffba49",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/pl_PL/pl_PL.dic"
+  },
+  "pt_BR.aff": {
+    "bytes": 979792,
+    "gitBlob": "4664ad6fc893e5683c1140eab8c1e1faeca802d3",
+    "retrieved": "2026-10-23",
+    "sha256": "21d8ad2a769a60e17e2b5ea4ef11d4d593a58b9e2a82d642ef82d6a4c5523865",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/pt_BR/pt_BR.aff"
+  },
+  "pt_BR.dic": {
+    "bytes": 4477695,
+    "gitBlob": "849c1dcaf873e72e364f7a64b6f1f2a679bbb097",
+    "retrieved": "2026-10-23",
+    "sha256": "a38bfb26b68ece2834e79fe83e48d5792652970ace12db89d1b9674bf9933183",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/67032ee957631908098a72edf48dc81cac27e369/pt_BR/pt_BR.dic"
+  },
+  "pt_br_50k.txt": {
+    "bytes": 650066,
+    "gitBlob": "2aa0e7b7d924143a2694a194bf9b9bbe8afe3da2",
+    "retrieved": "2026-10-23",
+    "sha256": "a61d6f2ede97c5daad5fb3907b72a228f0aff12668be6d24da590d20804fa611",
+    "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/pt_br/pt_br_50k.txt"
+  },
+  "tr-index.aff": {
+    "bytes": 240814,
+    "gitBlob": "c663303c9a9c0549c4ec825a1840249c5ab67601",
+    "retrieved": "2026-10-23",
+    "sha256": "6a390c79b054ad427cf9a6bf6de43463953cc1918e7f727e9dd4ebd4f9702f42",
+    "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/tr/index.aff"
+  },
+  "tr-index.dic": {
+    "bytes": 9117192,
+    "gitBlob": "8462432906aded651c05dedc13c3b5f127035837",
+    "retrieved": "2026-10-23",
+    "sha256": "dc1d8f7724f4aefd117274678de431e4ea1765f2e02e6983b6ca48cbf5a7fc7c",
+    "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/tr/index.dic"
+  },
+  "tr-license": {
+    "bytes": 1086,
+    "gitBlob": "31821280dc22483b1df9974d941472501a564f30",
+    "retrieved": "2026-10-23",
+    "sha256": "c18fd6425a62f50a0f1d4ec1dd45611e2051a66c56c44349a5f9045325549c0c",
+    "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/tr/license"
+  },
+  "tr-readme.md": {
+    "bytes": 3040,
+    "gitBlob": "0ebe5aa1d8d10072e082d37c9bb307f9dfcc91e7",
+    "retrieved": "2026-10-23",
+    "sha256": "71c8fb3256059a057f9ce7f33bb25a3eba5480b8c7d3b544cecc980050ca9f18",
+    "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/tr/readme.md"
+  },
+  "tr_50k.txt": {
+    "bytes": 711935,
+    "gitBlob": "b246f05e961667af0cdad9fa78caf605d1ea5f20",
+    "retrieved": "2026-10-23",
+    "sha256": "480192844e7fdfe9591bbf0b9cfbb96ed5751cfbba7024fd45d8cb7508e07d5c",
+    "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/tr/tr_50k.txt"
+  },
+  "de-wiktionary.tsv": {
+    "file": "de-wiktionary.tsv",
+    "url": "https://raw.githubusercontent.com/Vuizur/Wiktionary-Dictionaries/be0cfb8d614470bc8b9d9006ddff8b921cd5c2e3/German-English%20Wiktionary%20dictionary.tsv",
+    "gitBlob": "5bf0ffa0b4396e3b18ee39ca3d5a08ddce83d068",
+    "licence": "CC-BY-SA-3.0 OR GFDL",
+    "sourceEdition": "enwiktionary",
+    "dumpDate": null,
+    "dumpDateStatus": "Not disclosed by mirror; do not infer from commit date",
+    "snapshotDate": "2022-11-09",
+    "retrieved": "2026-10-23",
+    "transport": "Connected GitHub fetch_blob; exact original bytes verified",
+    "sha256": "be50dc11319ddfa8fa51ec33b8fe0e9283bff0bcce90f4f159415cee5055d2f6",
+    "bytes": 26926953
+  },
+  "it-wiktionary.tsv": {
+    "file": "it-wiktionary.tsv",
+    "url": "https://raw.githubusercontent.com/Vuizur/Wiktionary-Dictionaries/be0cfb8d614470bc8b9d9006ddff8b921cd5c2e3/Italian-English%20Wiktionary%20dictionary.tsv",
+    "gitBlob": "34eab0d1b13cddd103bdcb05c909cf37307ed857",
+    "licence": "CC-BY-SA-3.0 OR GFDL",
+    "sourceEdition": "enwiktionary",
+    "dumpDate": null,
+    "dumpDateStatus": "Not disclosed by mirror; do not infer from commit date",
+    "snapshotDate": "2022-11-09",
+    "retrieved": "2026-10-23",
+    "transport": "Connected GitHub fetch_blob; exact original bytes verified",
+    "sha256": "ffd074433c5b4e020e98ca2d18b2ac20dcd5fd356b39c1b76be564a95fd57b53",
+    "bytes": 22084360
+  },
+  "wiktionary-mirror-README.md": {
+    "file": "wiktionary-mirror-README.md",
+    "url": "https://raw.githubusercontent.com/Vuizur/Wiktionary-Dictionaries/be0cfb8d614470bc8b9d9006ddff8b921cd5c2e3/README.md",
+    "gitBlob": "615f167c70bfda9f6e5b92e4b5527cb94995d752",
+    "licence": "CC-BY-SA-3.0 OR GFDL",
+    "sourceEdition": "enwiktionary",
+    "dumpDate": null,
+    "dumpDateStatus": "Not disclosed by mirror; do not infer from commit date",
+    "snapshotDate": "2023-05-19",
+    "retrieved": "2026-10-23",
+    "transport": "Connected GitHub fetch_blob; exact original bytes verified",
+    "sha256": "d8b1287c74c6d2edd31e74d4d917c22a562e40edf0ea0ff43138223926b5eeeb",
+    "bytes": 680
+  }
+}

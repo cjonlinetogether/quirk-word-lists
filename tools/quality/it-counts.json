@@ -1,0 +1,128 @@
+{
+  "accept": 80000,
+  "acceptLengths": {
+    "10": 14420,
+    "11": 12938,
+    "12": 10130,
+    "2": 60,
+    "3": 203,
+    "4": 928,
+    "5": 2474,
+    "6": 4613,
+    "7": 8648,
+    "8": 11367,
+    "9": 14219
+  },
+  "alphabet": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "à",
+    "è",
+    "é",
+    "ì",
+    "í",
+    "î",
+    "ò",
+    "ó",
+    "ù",
+    "ú"
+  ],
+  "alphabetPolicy": "NFC lowercase; one precomposed character per tile; preserve all accents; digraphs use multiple tiles",
+  "answers": 2500,
+  "answersLengths": {
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "2": 0,
+    "3": 67,
+    "4": 198,
+    "5": 401,
+    "6": 525,
+    "7": 667,
+    "8": 642,
+    "9": 0
+  },
+  "blockedRecords": 170284,
+  "candidateAnswers": 6324,
+  "derivedAttested": 17314,
+  "filtering": {
+    "wiktionary_rejected_groups": 17710
+  },
+  "inflectedAccept": 14459,
+  "inputs": [
+    "CC-BY-SA-4.0.txt",
+    "it-wiktionary.tsv",
+    "it_50k.txt",
+    "wiktionary-mirror-README.md"
+  ],
+  "ladder": {
+    "3": {
+      "components": 26,
+      "isolated": 20,
+      "largest": 21,
+      "words": 67
+    },
+    "4": {
+      "components": 78,
+      "isolated": 66,
+      "largest": 100,
+      "words": 198
+    },
+    "5": {
+      "components": 224,
+      "isolated": 180,
+      "largest": 57,
+      "words": 401
+    },
+    "6": {
+      "components": 397,
+      "isolated": 329,
+      "largest": 10,
+      "words": 525
+    },
+    "7": {
+      "components": 579,
+      "isolated": 523,
+      "largest": 8,
+      "words": 667
+    },
+    "8": {
+      "components": 592,
+      "isolated": 554,
+      "largest": 5,
+      "words": 642
+    }
+  },
+  "language": "it",
+  "lowestAnswerFrequency": 984,
+  "nounAnswers": 1739,
+  "sampleMethod": "100 lowest SHA-256(seed:language:word) priorities; stable random sample",
+  "sampleReview": "AgentReviewed",
+  "sampleSeed": 20261023,
+  "sampleSize": 100,
+  "sourceBases": 68701
+}

@@ -1,0 +1,133 @@
+{
+  "accept": 80000,
+  "acceptLengths": {
+    "10": 12214,
+    "11": 9191,
+    "12": 6349,
+    "2": 105,
+    "3": 458,
+    "4": 1909,
+    "5": 4696,
+    "6": 7803,
+    "7": 10792,
+    "8": 13202,
+    "9": 13281
+  },
+  "alphabet": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "à",
+    "á",
+    "â",
+    "ã",
+    "ç",
+    "é",
+    "ê",
+    "í",
+    "ó",
+    "ô",
+    "õ",
+    "ú",
+    "ü"
+  ],
+  "alphabetPolicy": "NFC lowercase; one precomposed character per tile; preserve all accents; digraphs use multiple tiles",
+  "answers": 2500,
+  "answersLengths": {
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "2": 0,
+    "3": 121,
+    "4": 244,
+    "5": 514,
+    "6": 565,
+    "7": 547,
+    "8": 509,
+    "9": 0
+  },
+  "blockedRecords": 4058,
+  "candidateAnswers": 6805,
+  "derivedAttested": 23511,
+  "filtering": {
+    "case_shape_length": 102985,
+    "unsafe_stems": 4123
+  },
+  "inputs": [
+    "GPLv3.txt",
+    "LGPLv3.txt",
+    "README_en.txt",
+    "README_pt_BR.txt",
+    "pt_BR.aff",
+    "pt_BR.dic",
+    "pt_br_50k.txt"
+  ],
+  "ladder": {
+    "3": {
+      "components": 18,
+      "isolated": 10,
+      "largest": 79,
+      "words": 121
+    },
+    "4": {
+      "components": 133,
+      "isolated": 99,
+      "largest": 56,
+      "words": 244
+    },
+    "5": {
+      "components": 352,
+      "isolated": 286,
+      "largest": 19,
+      "words": 514
+    },
+    "6": {
+      "components": 482,
+      "isolated": 430,
+      "largest": 15,
+      "words": 565
+    },
+    "7": {
+      "components": 520,
+      "isolated": 499,
+      "largest": 5,
+      "words": 547
+    },
+    "8": {
+      "components": 487,
+      "isolated": 468,
+      "largest": 3,
+      "words": 509
+    }
+  },
+  "language": "pt-BR",
+  "lowestAnswerFrequency": 1827,
+  "sampleMethod": "100 lowest SHA-256(seed:language:word) priorities; stable random sample",
+  "sampleReview": "AgentReviewed",
+  "sampleSeed": 20261023,
+  "sampleSize": 100,
+  "sourceBases": 205193
+}

@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-23",
+  "phase": "G11c D1 Wiktionary replacement",
+  "requestedLanguages": [
+    "es",
+    "pt-BR",
+    "id",
+    "tr",
+    "fr",
+    "de",
+    "it",
+    "pl"
+  ],
+  "builtLanguages": [
+    "es",
+    "pt-BR",
+    "id",
+    "tr",
+    "fr",
+    "de",
+    "it",
+    "pl"
+  ],
+  "missingLanguages": [],
+  "status": "PASS",
+  "counts": {
+    "es": {
+      "answers": 2500,
+      "accept": 72978,
+      "sampleReview": "AgentReviewed"
+    },
+    "pt-BR": {
+      "answers": 2500,
+      "accept": 80000,
+      "sampleReview": "AgentReviewed"
+    },
+    "id": {
+      "answers": 2500,
+      "accept": 45056,
+      "sampleReview": "AgentReviewed"
+    },
+    "tr": {
+      "answers": 2500,
+      "accept": 80000,
+      "sampleReview": "AgentReviewed"
+    },
+    "fr": {
+      "answers": 2500,
+      "accept": 75147,
+      "sampleReview": "AgentReviewed"
+    },
+    "de": {
+      "answers": 2500,
+      "accept": 47915,
+      "sampleReview": "AgentReviewed"
+    },
+    "it": {
+      "answers": 2500,
+      "accept": 80000,
+      "sampleReview": "AgentReviewed"
+    },
+    "pl": {
+      "answers": 2500,
+      "accept": 80000,
+      "sampleReview": "AgentReviewed"
+    }
+  },
+  "checks": [
+    {
+      "command": "python tools/banks/test_wiktionary_words.py",
+      "exitCode": 0,
+      "result": "10 regression tests pass."
+    },
+    {
+      "command": "python tools/banks/build_lang_banks.py --offline",
+      "exitCode": 0,
+      "result": "All eight languages rebuilt with the final source reader, filters and review receipts."
+    },
+    {
+      "command": "python tools/banks/build_lang_banks.py --offline --check --languages de it",
+      "exitCode": 0,
+      "result": "Both replacement banks, samples, counts, notices, source page maps and answer provenance reproduce exactly; combined notice/index match."
+    },
+    {
+      "command": "python tools/banks/verify_lang_banks.py",
+      "exitCode": 0,
+      "result": "All 16 banks and 800 final answer samples pass; all 42 source/licence inputs hash-verified; page attribution, POS, German nouns, source edition, notice registrations, filters, subsets and Unicode/size rules pass. Six English files, 69 first-round files and 43 retained six-language files unchanged. Retired German/Italian GPL inputs absent."
+    }
+  ],
+  "reviewedAnswersPerLanguage": 100,
+  "newAnswersPersonallyReviewed": {
+    "de": 100,
+    "it": 100
+  },
+  "nativeReview": false,
+  "sourceFilesVerified": 42,
+  "englishFilesUnchanged": 6,
+  "firstRoundFilesUnchanged": 69,
+  "retainedSixLanguageFilesUnchanged": 43,
+  "reproducibilityScope": "Final de/it comparison above. An all-eight --offline --check also passed before the last de/it reader refinements; the other six outputs and sources remain byte-identical under their pinned baseline. All eight were subsequently rebuilt offline using final code and passed integrity verification.",
+  "dumpDateLimitation": "Downloaded dictionary mirror updated 2022-11-09; original Wikimedia dump date undisclosed/null. Current October dumps were researched but inaccessible.",
+  "dataLicence": {
+    "de": "CC-BY-SA-4.0 adaptation of CC-BY-SA-3.0 mirror",
+    "it": "CC-BY-SA-4.0 adaptation of CC-BY-SA-3.0 mirror"
+  },
+  "appCodeChanged": false,
+  "repositoryTouched": false,
+  "publishedRemote": false,
+  "artifactSha256": {
+    "content/src/main/assets/banks/es-answers/words.txt": "36c252ac398485edc222319b2f28261d9961c8b2f2e23a0db2d73a3e7ef49e78",
+    "content/src/main/assets/banks/es-answers/manifest.json": "3dac7e86129e241a54d4445ece971cad5ad11455a8bd140e5f6d463175cf4640",
+    "content/src/main/assets/banks/es-accept/words.txt": "52e09d7cd72070a77bb97b99e91614a94bbea2550a1c3c0ee66723c4125837e7",
+    "content/src/main/assets/banks/es-accept/manifest.json": "23bb152c9bfa34d15bf97f4b611b35fbebe38b93a35c51ca2e959d7b679cf434",
+    "tools/banks/quality/es-sample.txt": "18c1d0ad41c1984a83530e3e02e03179f6a04871e3e1d54cafb76139ce263076",
+    "tools/banks/quality/es-counts.json": "64a00877d01a98830a1e2fa88dc9da89bce18d3d196637fa0d77256a8a54944e",
+    "app/src/main/assets/licenses/Quirk-bank-es.txt": "75c4f9277a40b95fa6537031a16acaaeb6a3d90772b097271a536171285ca842",
+    "content/src/main/assets/banks/pt-BR-answers/words.txt": "7a0e92901a881e20bc2395d17160b975f9d511e0fbdffd2461570b8c97f3443c",
+    "content/src/main/assets/banks/pt-BR-answers/manifest.json": "b0f715d703c17291d84b43eda501f882efcfd7b00b2d4fe1411f8c6725077e9b",
+    "content/src/main/assets/banks/pt-BR-accept/words.txt": "c32bb1cf615c6591821140101966b837fa64c139c66d23b01abf4f0d8c9255f5",
+    "content/src/main/assets/banks/pt-BR-accept/manifest.json": "f895c12bad009df368d4896859785d203d8e3b9c80a8ccbdada6afacc0d885e4",
+    "tools/banks/quality/pt-BR-sample.txt": "09e3f4ad35fc5d1d5ecc05c4d74b8f5fe0b3b45d1d43957e537ebbbb829f2fb7",
+    "tools/banks/quality/pt-BR-counts.json": "99f909d1640270ab4f7c5b9af0658fcadedc89c56935c5125f206357dc48d1d1",
+    "app/src/main/assets/licenses/Quirk-bank-pt-BR.txt": "4a0436e70cfb1c54d8c8270328e304b1fcd8c7aa000ca022fb6d7b86f7e4546a",
+    "content/src/main/assets/banks/id-answers/words.txt": "42a58cd014d969bde3424d66210f506d9556b620479d81d12e302bbacc81b412",
+    "content/src/main/assets/banks/id-answers/manifest.json": "15b21f239a2b26af25e1f173666298095b25bcfc52368134c7d6078d1f8c5737",
+    "content/src/main/assets/banks/id-accept/words.txt": "9a202800ba1373669d76550f68d540321268ed876a211bff92cb588a7c9f43b7",
+    "content/src/main/assets/banks/id-accept/manifest.json": "0af220cefb50cf6467ca2c3ed87e54e56ba198fed4c5b6e2fa390e4936c5a5e7",
+    "tools/banks/quality/id-sample.txt": "86f14066302d81d6f80b6fb906963aa896f26b3c3ea97d361055dfd53f293af9",
+    "tools/banks/quality/id-counts.json": "d82e4262af497207039e0c90e60085513aef370254162dcc8956e64bb5416ecd",
+    "app/src/main/assets/licenses/Quirk-bank-id.txt": "d4d1ba923aee19e563f6e508a05c2ca567007464726fac32ad550cc4a13e8c85",
+    "content/src/main/assets/banks/tr-answers/words.txt": "16b0619cee3331c044a6e89eba5f1a0d4500f9d0978c892158c8f3ea191592d3",
+    "content/src/main/assets/banks/tr-answers/manifest.json": "8158d8f92e7f30590e9000571be6889283f30a0ffb3a195ebbd5586807f23c34",
+    "content/src/main/assets/banks/tr-accept/words.txt": "c293ae2057b1387c2478c767230512a45e30973bba4c1b64dbbdd440557d07e8",
+    "content/src/main/assets/banks/tr-accept/manifest.json": "bd511f60c830c8c8c82259711cdcf0e7ffbd554bdc8a92031778fcb044db32a4",
+    "tools/banks/quality/tr-sample.txt": "d267056d7a25206b273a32acb90b2bf6a6026d4ae0f7f66927e05cfcaf42ce3d",
+    "tools/banks/quality/tr-counts.json": "a69748ac395f8fae97bee1d57b186f27038e47b43cff5d899124eff2e98cca9c",
+    "app/src/main/assets/licenses/Quirk-bank-tr.txt": "15f786c400da52f116ba3495b69fccd3558b1e86f9707bca07d77a1ff2a996b2",
+    "content/src/main/assets/banks/fr-answers/words.txt": "98248f070a719548abb5d7898746157c78e0ecadd950214d5216b16d354636df",
+    "content/src/main/assets/banks/fr-answers/manifest.json": "ebd35defdc8836f217c8a940b5ed76537a03057af2bf69931bcecc1e2630ecb9",
+    "content/src/main/assets/banks/fr-accept/words.txt": "64c87932bca22ecdc44486f2c2caae00c6ae41c8c0ee37f016e30370e1c92462",
+    "content/src/main/assets/banks/fr-accept/manifest.json": "f455f26eec899fca01b2cf453ba9963340ce2049421166d64bc7cbda0ab991ff",
+    "tools/banks/quality/fr-sample.txt": "2b081624fbc691f9e1d3194548f15a1deca3cebe4156a1b7fb422128fbd25b10",
+    "tools/banks/quality/fr-counts.json": "36dc797c7ac1807056646846e55934c598103df336a67a99efa21a48f94cfad2",
+    "app/src/main/assets/licenses/Quirk-bank-fr.txt": "5b9e5c03135d7f20cf0e61d8953e4a7de30b6e4c00bc214f73e8b5bfdc856a32",
+    "content/src/main/assets/banks/de-answers/words.txt": "87f4ee6ecf6cb1f55b9715e6c54ab5e41a224f2ae6bc9083731036ae2da84a3c",
+    "content/src/main/assets/banks/de-answers/manifest.json": "644a233e9cae65c248e34ec9ad4e1c449559893e30ac96cffce9a07aba493dc8",
+    "content/src/main/assets/banks/de-accept/words.txt": "61cef9475f520d0c53cd1a7cb927785409c3e9f83ad3333e600db0f096ccede0",
+    "content/src/main/assets/banks/de-accept/manifest.json": "72e6f7d4b340488f49be66368673f2e24ff61470c5c23ca04446005e81beb77a",
+    "tools/banks/quality/de-sample.txt": "1d071dd826a38a468bf7c2d4b34b58f8961fd9752b18a531038f68192bb452a2",
+    "tools/banks/quality/de-counts.json": "8c09d922c1ce3a181db57a9b9cfc7918dba67625036370ebc9ac05f6704a714f",
+    "app/src/main/assets/licenses/Quirk-bank-de.txt": "b02349e726f49bbd5f80ce9d9c1d76515e7b583650d35923af10e8a43b97a080",
+    "content/src/main/assets/banks/it-answers/words.txt": "5324b2e1d84eb4b636e71000a1ca6f6fb4cf726a756043468e8001f90bd58532",
+    "content/src/main/assets/banks/it-answers/manifest.json": "b059cdb2fc6d140ef52cc90e77503c5437026029ec29dcfc3806fc6cf6b38083",
+    "content/src/main/assets/banks/it-accept/words.txt": "0131f3145802927ed0d76741d78cff2efd626ccce103405ceb100c2731f4f5fa",
+    "content/src/main/assets/banks/it-accept/manifest.json": "d9824f796d285095a229ebc9219611c91fc6739abf6355ee66df7e632e3077bc",
+    "tools/banks/quality/it-sample.txt": "befd72f6e9e39fc98ee4121221967a3c245abf2f65f223a58e0b62a38f239f2e",
+    "tools/banks/quality/it-counts.json": "ee64814f9b01b8afd8918b356c0775e794acc3ea608394287ee9608213d56512",
+    "app/src/main/assets/licenses/Quirk-bank-it.txt": "4cadfa0199afac2c8b29030eb1beecbc3fa88a80f724ff1f875332eb13057c52",
+    "content/src/main/assets/banks/pl-answers/words.txt": "38bb917a7e875ee90993d66ba5a370c40ece02955f53ecbe9eeb4230a7315987",
+    "content/src/main/assets/banks/pl-answers/manifest.json": "e620c13176355323d016a8e5cea1d508828a2cb880384b8a6d45ba4f035a6f6f",
+    "content/src/main/assets/banks/pl-accept/words.txt": "dd15d47db9fa58887a2da092af6ec43044271114512bfd9b8b4dcb733e1d761e",
+    "content/src/main/assets/banks/pl-accept/manifest.json": "397fe4d97b8c1ad1b154161c69e47171ef6d07b9c6a4c21a830552f8fc77c191",
+    "tools/banks/quality/pl-sample.txt": "35dc94652b227bd1fde954f9be2f36bf828fd79d8de5696491832d307a9ae791",
+    "tools/banks/quality/pl-counts.json": "c1a3d92931aab6f2ff0e8e6b053788907ba487b25d6393194d92bb133b180c98",
+    "app/src/main/assets/licenses/Quirk-bank-pl.txt": "14ff820c93e35e2a25d8dc159d6a2f30c12444047b8885e2ce9d9e400048ede4",
+    "tools/banks/build_lang_banks.py": "f80a2ad42f84aba0d5204e54de9f9ac6b8767b66c188fca15a9158db9a6eb02f",
+    "tools/banks/verify_lang_banks.py": "4641f923cad160513c0914040789a9c50967f11f99b5d388d72789766f6f227a",
+    "tools/banks/test_wiktionary_words.py": "3ef690c2be3a6e10e29fdb839cfa045827875f24d4c89d7ab70f3345c4c0a329",
+    "tools/banks/source_inventory.json": "f6cc0b4ed040a3017662f8a7c2bfb7e699000638588425de1c7ac555e14903c0",
+    "tools/banks/source_lock.json": "69dcc09464dd1ef69cb1963fefb888712b40e29859eabf5859afb2111c91af5d",
+    "tools/banks/language_filters.json": "25129fd7b1940d1347e14ab615a8b89b5c106a2032087788f1d881bdcf2ea44e",
+    "tools/banks/review_exclusions.json": "d4f8fed1d3beb5f38d356ae987a10b784f24fed783e774dff63a2e2b9db1a413",
+    "tools/banks/removed_gpl_artifacts.json": "73ee01faeaabca4d6d08fe201da8622f132f1bc5ca1ff1045e917a3039768ef8",
+    "tools/banks/research_wiktionary.md": "653861d7d74a266592f1371a719c164df845e259251e31ed911b87769e487554",
+    "tools/banks/source_attempts_wiktionary.json": "2b6551dded0de5dfac502040a6a05fb9efe3c143b1784462d52095c35a63069f",
+    "tools/banks/README.md": "7d05317a7501c6df570925e8d1e3144ca7d7984f257d96b10b80292ed061f17c",
+    "tools/banks/wiktionary_baseline.json": "66dd73e96f187470b495345cc87a1eb5afc06b4eee596a10067aeb6bfa76dbd0",
+    "tools/banks/quality/sample_reviews.json": "c54a1045d1f602bab5cc57b385d2a16acfac13e8126d1900255abbf6e39d38f2",
+    "tools/banks/quality/de-page-attribution.jsonl": "09b8d443a324716fe6195b38afdb7bc983d0b70a6b84122b62dfdd41a488e477",
+    "tools/banks/quality/de-answer-provenance.jsonl": "ff9c65f5dd9e00bde1a836bde6d371d66ef5c83c452d4e44bad3053a82511130",
+    "app/src/main/assets/licenses/Quirk-bank-de-pages.jsonl": "09b8d443a324716fe6195b38afdb7bc983d0b70a6b84122b62dfdd41a488e477",
+    "tools/banks/quality/it-page-attribution.jsonl": "ca65bb77c9d6568aec3ad44a6651b7c9c9d279e50fea6cfbd2061f93d5e97971",
+    "tools/banks/quality/it-answer-provenance.jsonl": "1d618de8a252db29e066850ab8c4ef5540ad8eb952663215e3d9b504f96b12bb",
+    "app/src/main/assets/licenses/Quirk-bank-it-pages.jsonl": "ca65bb77c9d6568aec3ad44a6651b7c9c9d279e50fea6cfbd2061f93d5e97971",
+    "report.md": "f94b7151234510c5ab80ea43050be9bb1e39273c47fd4d3cd22e4688635ef645",
+    "app/src/main/assets/licenses/index.json": "401108c57f83e3212ea20ae85836135b15b7bd569493c5f53bcba779d007a2c5",
+    "app/src/main/assets/licenses/Quirk-language-banks-ATTRIBUTION.txt": "8072bf68b5735d9207b259208b067a3d1fb6c943051e76e9c4790543fa782cc6"
+  }
+}

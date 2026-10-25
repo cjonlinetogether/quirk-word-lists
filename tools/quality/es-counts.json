@@ -1,0 +1,128 @@
+{
+  "accept": 72978,
+  "acceptLengths": {
+    "10": 9867,
+    "11": 6452,
+    "12": 3733,
+    "2": 114,
+    "3": 464,
+    "4": 1826,
+    "5": 4885,
+    "6": 8334,
+    "7": 11889,
+    "8": 13308,
+    "9": 12106
+  },
+  "alphabet": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "á",
+    "é",
+    "í",
+    "ñ",
+    "ó",
+    "ú",
+    "ü"
+  ],
+  "alphabetPolicy": "NFC lowercase; one precomposed character per tile; preserve all accents; digraphs use multiple tiles",
+  "answers": 2500,
+  "answersLengths": {
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "2": 0,
+    "3": 125,
+    "4": 348,
+    "5": 600,
+    "6": 567,
+    "7": 499,
+    "8": 361,
+    "9": 0
+  },
+  "blockedRecords": 591,
+  "candidateAnswers": 8775,
+  "derivedAttested": 25368,
+  "filtering": {
+    "case_shape_length": 12325,
+    "unsafe_stems": 1236
+  },
+  "inputs": [
+    "LICENSE.md",
+    "MPL-1.1.txt",
+    "README_hunspell_es.txt",
+    "es_50k.txt",
+    "es_ES.aff",
+    "es_ES.dic",
+    "es_MX.aff",
+    "es_MX.dic"
+  ],
+  "ladder": {
+    "3": {
+      "components": 14,
+      "isolated": 6,
+      "largest": 83,
+      "words": 125
+    },
+    "4": {
+      "components": 90,
+      "isolated": 61,
+      "largest": 202,
+      "words": 348
+    },
+    "5": {
+      "components": 329,
+      "isolated": 232,
+      "largest": 69,
+      "words": 600
+    },
+    "6": {
+      "components": 437,
+      "isolated": 363,
+      "largest": 17,
+      "words": 567
+    },
+    "7": {
+      "components": 438,
+      "isolated": 389,
+      "largest": 6,
+      "words": 499
+    },
+    "8": {
+      "components": 333,
+      "isolated": 309,
+      "largest": 3,
+      "words": 361
+    }
+  },
+  "language": "es",
+  "lowestAnswerFrequency": 3909,
+  "sampleMethod": "100 lowest SHA-256(seed:language:word) priorities; stable random sample",
+  "sampleReview": "AgentReviewed",
+  "sampleSeed": 20261023,
+  "sampleSize": 100,
+  "sourceBases": 50474
+}
